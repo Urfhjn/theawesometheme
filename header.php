@@ -5,4 +5,8 @@
     <?php wp_head() ?>
 </head>
 <body>
-<header>This is the site header.</header>
+<header>
+    <div class="container">
+        This is the site header.
+    </div>
+</header>
