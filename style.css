@@ -5,4 +5,13 @@ Description: The best theme in the world.
 Version: 0.1
 */
 
-html, body {background:#CCC;}
+html, body {background:#efefef; color:#333;}
+main {margin-bottom:20px;}
+main article {background:#FFF; margin-bottom:3px; padding:20px 40px; border-radius:3px;}
+main article .meta-data {background:#EEE; padding:5px;}
+main article .tags a {margin-right:5px; color:#999;}
+main article .categories a {color:#999;}
+main article > header {margin-bottom:30px;}
+
+/* Footer */
+#footer {background:#CCC; padding:20px 0;}
