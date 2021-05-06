@@ -1,4 +1,5 @@
 <?php
+//require_once('wp_bootstrap_navwalker.php');
 
 //function add_css_file() {
 //	wp_enqueue_style('main-style-file', get_stylesheet_uri());
@@ -23,3 +24,9 @@ register_nav_menus(
 		'footer-col3'  => 'Footer column 3',
 	)
 );
+
+
+//function register_navwalker(){
+//	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+//}
+//add_action( 'after_setup_theme', 'register_navwalker' );
