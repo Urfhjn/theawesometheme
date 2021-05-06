@@ -8,6 +8,7 @@ Version: 0.1
 html, body {background:#efefef; color:#333;}
 main {margin-bottom:20px;}
 main article {background:#FFF; margin-bottom:3px; padding:20px 40px; border-radius:3px;}
+main article:hover {box-shadow:0 6px 20px #CCC; position:relative; z-index:100;}
 main article .meta-data {background:#EEE; padding:5px;}
 main article .tags a {margin-right:5px; color:#999;}
 main article .categories a {color:#999;}
