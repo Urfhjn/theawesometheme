@@ -25,7 +25,7 @@ register_nav_menus(
 	)
 );
 
-
+// Commented this out for fixing later
 //function register_navwalker(){
 //	require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 //}
