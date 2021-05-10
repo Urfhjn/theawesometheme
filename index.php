@@ -34,6 +34,10 @@
         </div>
     </div>
 
+    <div id="pagination">
+		<?php wpex_pagination(); ?>
+    </div>
+
 </main>
 
 <?php get_footer() ?>

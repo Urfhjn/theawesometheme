@@ -28,3 +28,20 @@ main article > header {margin-bottom:30px;}
 #search-page article {background:none; padding-top:0; padding-bottom:0; padding-left:0;}
 #search-page article:hover {box-shadow:none;}
 #search-page article header {margin-bottom:0;}
+
+/* Pagination */
+#pagination {text-align:center; margin-top:30px; margin-bottom:60px;}
+#pagination a, #pagination span {padding:10px; margin-right:-6px;}
+#pagination a {background:#FFF; border:1px solid #999; color:#333;}
+#pagination a:hover {text-decoration:none; background:#DDD;}
+#pagination a:first-child {border-radius:3px 0 0 3px;}
+#pagination a:last-child {border-radius:0 3px 3px 0;}
+#pagination span {font-weight:bold;}
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
