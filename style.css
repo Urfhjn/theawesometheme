@@ -21,3 +21,10 @@ main article > header {margin-bottom:30px;}
 
 /* Footer */
 #footer {background:#CCC; padding:20px 0;}
+
+/* Search page only */
+#search-page {background:#FFF; padding-top:20px; padding-bottom:20px;}
+#search-page h2 {font-size:26px;}
+#search-page article {background:none; padding-top:0; padding-bottom:0; padding-left:0;}
+#search-page article:hover {box-shadow:none;}
+#search-page article header {margin-bottom:0;}
