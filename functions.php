@@ -55,3 +55,30 @@ if ( !function_exists( 'wpex_pagination' ) ) {
 	}
 
 }
+
+
+$total = 5;
+if($total > 5) {
+	print('Hey you');
+} else {
+	print('Not you');
+}
+
+/*
+// Ternary operator a ? true : false
+$text_to_print = $total > 5 ? 'Hey you' : 'Not you';
+print($text_to_print);
+
+function ask_user_age($user_input) {
+	$age = $user_input ? $user_input : 35;
+	if($user_input) {
+		$age = $user_input;
+	}
+	else {
+		$age = 35;
+	}
+}
+
+// Elvis operator ?:
+$myvar = $total ?: 4);
+*/

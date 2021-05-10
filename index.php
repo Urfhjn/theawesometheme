@@ -38,6 +38,10 @@
 		<?php wpex_pagination(); ?>
     </div>
 
+    <div>
+        <?php $_GET['s'] ? "Search: {$_GET['s']}" : null ?>
+    </div>
+
 </main>
 
 <?php get_footer() ?>
