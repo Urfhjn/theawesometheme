@@ -14,5 +14,10 @@ main article .tags a {margin-right:5px; color:#999;}
 main article .categories a {color:#999;}
 main article > header {margin-bottom:30px;}
 
+/* Navbar */
+#navbar {background:#333; padding:0; margin-bottom:40px;}
+#navbar li a {color:#FFF; padding:.8rem 1rem;}
+#navbar li a:hover {background:#777;}
+
 /* Footer */
 #footer {background:#CCC; padding:20px 0;}
